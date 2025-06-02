@@ -89,8 +89,8 @@ def main():
 
     project_root = os.path.dirname(__file__)
 
-    dest_path = "public/index.html"
-    static_dest_dir = "public"
+    dest_path = "docs/index.html"
+    static_dest_dir = "docs"
     static_dir = "static"
 
     if os.path.exists(dest_path):
